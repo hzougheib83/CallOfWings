@@ -183,7 +183,7 @@
     <header class="header-card">
       <span class="badge">صيد وتتبع الطيور | Hunting &amp; Outdoor</span>
       <h1>Call Of Wings • سياسة الخصوصية</h1>
-      <p>آخر تحديث: 28 أغسطس 2026</p>
+      <p>آخر تحديث: 29 أكتوبر 2026</p>
     </header>
 
     <main class="content-box">
@@ -193,22 +193,24 @@
 
         <h2 class="section-title">1. جمع البيانات واستخدام الأذونات</h2>
         <ul>
-          <li><strong>الموقع الجغرافي (Location):</strong> يحتاج التطبيق إلى الوصول إلى موقعك الجغرافي فقط لتزويدك بتوقعات الطقس الدقيقة وتوجيهات البوصلة في منطقتك الحالية. لا يتم حفظ بيانات موقعك أو مشاركتها على خوادم خاصة بنا.</li>
+          <li><strong>الموقع الجغرافي (Location):</strong> عند استخدام الطقس أو اختيار نقطة على الخريطة، تُرسل إحداثيات الموقع (وقد تكون دقيقة)، والارتفاع عند توفره، والمنطقة الزمنية إلى Open-Meteo لجلب التوقعات عبر HTTPS. وقد تعالج خدمات خرائط Google وتحديد العناوين الموقع الذي تختاره أو تسمح بالوصول إليه. يمكنك رفض إذن موقع الجهاز والاستمرار في استخدام ميزات أخرى. لا يعني عدم تخزين المطور للموقع على خادم خاص أن مزودي الخدمة لا يتلقونه أو يحتفظون بسجلات.</li>
           <li><strong>حساسات الجهاز (Sensors):</strong> يستخدم التطبيق حساسات التوجيه (Magnetometer/Compass) لتشغيل ميزة البوصلة محلياً دون تسجيل أو نقل أي بيانات.</li>
           <li><strong>الصوتيات والمفضلة:</strong> يتم تشغيل أصوات الطيور وحفظ قائمة الأصوات المفضلة محلياً على هاتفك فقط.</li>
-          <li><strong>بيانات الهوية الشخصية:</strong> لا يطلب التطبيق أو يجمع أي بيانات شخصية مثل الاسم، الحسابات، أو أرقام الهواتف.</li>
+          <li><strong>بيانات الهوية الشخصية:</strong> لا يتطلب التطبيق إنشاء حساب أو تقديم اسم أو رقم هاتف. ومع ذلك، قد تعالج الخدمات الخارجية عنوان IP ومعرّفات الجهاز والتطبيق والتفاعل مع الإعلانات وبيانات الأعطال والأداء.</li>
         </ul>
 
         <h2 class="section-title">2. خدمات الطرف الثالث (Third-Party Services)</h2>
         <p>قد يستخدم التطبيق خدمات موثوقة من أطراف ثالثة لتقديم الوظائف الأساسية وعرض الإعلانات:</p>
         <ul>
-          <li><strong>خدمات بيانات الطقس (Weather API):</strong> لجلب التوقعات الجوية المحدثة بناءً على الإحداثيات الجغرافية.</li>
-          <li><strong>Google AdMob:</strong> لعرض الإعلانات داخل التطبيق.</li>
-          <li><strong>User Messaging Platform (UMP):</strong> لإدارة موافقة المستخدمين على الخصوصية وخيارات التتبع الإعلاني.</li>
+          <li><strong>Open-Meteo:</strong> لمعالجة طلبات الطقس. تذكر سياسته أن سجلات الخدمة قد تتضمن الإحداثيات وعنوان IP وتُحذف بعد 90 يوماً. <a href="https://open-meteo.com/en/terms">شروط الخدمة والخصوصية</a>.</li>
+          <li><strong>Google AdMob:</strong> لعرض الإعلانات وقياسها ومنع الاحتيال. وقد يعالج عنوان IP والموقع التقريبي ومعرّفات الجهاز والتطبيق والتفاعل مع الإعلانات وبيانات التشخيص. <a href="https://policies.google.com/privacy">سياسة خصوصية Google</a>.</li>
+          <li><strong>Google Maps and geocoding:</strong> Provide maps and location names. See <a href="https://policies.google.com/privacy">Google privacy information</a>.</li>
+          <li><strong>خرائط Google وتحديد العناوين:</strong> لعرض الخرائط وأسماء المواقع وفق <a href="https://policies.google.com/privacy">سياسة Google</a>.</li>
+          <li><strong>Google UMP:</strong> يضيف تحديث Android القادم جمع خيارات الخصوصية قبل طلب الإعلانات عندما يلزم ذلك، وزر «خيارات خصوصية الإعلانات» في الإعدادات عندما تتطلبه Google. قد لا تتضمن الإصدارات الأقدم هذه الضوابط. يعتمد توفرها على تثبيت التحديث وإعداد رسائل الخصوصية في AdMob.</li>
         </ul>
 
         <h2 class="section-title">3. ملفات السجل (Log Data)</h2>
-        <p>في حال حدوث خطأ تقني، قد يتم إرسال تقرير تشخيصي مجهول الهوية عبر مكتبات تحليل الأعطال للمساعدة في تحسين الاستقرار وإصلاح المشاكل البرمجية.</p>
+        <p>قد تعالج مكتبات الخدمات الخارجية معلومات الأعطال وأداء التطبيق لأغراض التشخيص والقياس والأمان. لا نفترض أن جميع هذه المعلومات مجهولة الهوية، وتخضع معالجة كل مزود لسياساته.</p>
 
         <h2 class="section-title">4. أمن البيانات</h2>
         <p>نحن نحرص على حماية أمان بياناتك، ولكن يرجى تذكر أنه لا توجد وسيلة نقل عبر الإنترنت أو تخزين إلكتروني آمنة بنسبة 100%.</p>
@@ -227,29 +229,29 @@
       <!-- English Section -->
       <section class="en-section">
         <h2 class="section-title">Privacy Policy</h2>
-        <p><strong>Last updated:</strong> August 28, 2026</p>
+        <p><strong>Last updated:</strong> October 29, 2026</p>
         <p>The <strong>"Call Of Wings"</strong> app is committed to protecting your privacy. This policy explains our handling of information and device permissions required for app features (bird calls, weather forecasts, and compass).</p>
 
         <h2 class="section-title">1. Information Collection &amp; Permissions</h2>
         <ul>
-          <li><strong>Location Data:</strong> Accessed solely to deliver accurate local weather forecasts and compass orientation. Your location is processed in real time and is never stored on or uploaded to private servers.</li>
+          <li><strong>Location Data:</strong> When you use weather or select a map point, location coordinates (potentially precise), elevation where available, and timezone are sent to Open-Meteo over HTTPS to retrieve forecasts. Google Maps and geocoding services may also process the location you select or permit the device to access. You can deny device-location permission and continue using other features. The developer not storing location on a private server does not mean service providers never receive or retain it.</li>
           <li><strong>Device Sensors:</strong> Compass functionality utilizes internal hardware sensors (such as the magnetometer) locally on your device without recording data.</li>
           <li><strong>Audio &amp; Favorites:</strong> Bird calls and saved preferences are stored locally on your device.</li>
-          <li><strong>Personal Data:</strong> We do not collect personally identifiable information such as names, accounts, or phone numbers.</li>
+          <li><strong>Personal Data:</strong> The app does not require an account, name, or phone number. External services may still process IP addresses, device/app identifiers, ad interactions, and crash/performance information.</li>
         </ul>
 
         <h2 class="section-title">2. Third-Party Services</h2>
         <p>The app utilizes external services that may process technical or device identifiers:</p>
         <ul>
-          <li><strong>Weather API Services:</strong> To fetch accurate real-time forecasts.</li>
-          <li><strong>Google AdMob:</strong> For serving personalized or non-personalized advertisements.</li>
-          <li><strong>Google UMP:</strong> For user consent management regarding privacy laws.</li>
+          <li><strong>Open-Meteo:</strong> Processes weather requests. Its policy states that service logs may contain coordinates and IP addresses and are deleted after 90 days. <a href="https://open-meteo.com/en/terms">Terms and privacy</a>.</li>
+          <li><strong>Google AdMob:</strong> Serves and measures ads and prevents fraud. It may process IP-derived approximate location, device/app identifiers, ad interactions, and diagnostic information. <a href="https://policies.google.com/privacy">Google privacy policy</a>.</li>
+          <li><strong>Google UMP:</strong> The forthcoming Android update adds privacy-choice collection before requesting ads when required, and an Ad privacy choices entry in Settings when Google requires it. Older versions may not include these controls. Their availability depends on installing the update and configuring privacy messages in AdMob.</li>
         </ul>
 
-        <h2 class="section-title">3. Security</h2>
+        <h2 class="section-title">3. Diagnostic data</h2><p>External service SDKs may process crash and performance information for diagnostics, measurement, and security. We do not assume all such data is anonymous; each provider handles it under its own policies.</p><h2 class="section-title">4. Security</h2>
         <p>We strive to protect your information, but remember that no method of electronic transmission or mobile storage is 100% secure.</p>
 
-        <h2 class="section-title">4. Contact Us</h2>
+        <h2 class="section-title">5. Changes and contact</h2><p>We may update this policy when app features or service integrations change. The revision date appears above.</p>
         <p>If you have any questions or suggestions regarding this policy, contact us at:</p>
         <div class="contact-group">
           <a href="tel:+96171017897" class="contact-btn">📞 +961 71 017 897</a>
